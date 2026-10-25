@@ -26,14 +26,14 @@ Orchestrated container deployment showcasing high availability, automated self-h
 
 🔗 [Repository](https://github.com/Janoth3/kubernetes-local-deployment)
 
-### 📝 PerformancePal
-Beginner-friendly performance testing web app built as a University Final Year Project.
-- Enables users to run automated load tests on web applications without requiring specialist JMeter expertise.
-- Features real-time performance metrics, live test monitoring, and data visualisations for bottleneck identification.
+### ☁️ Automated AWS K3s & Terraform Deployment
+Automated cloud infrastructure pipeline provisioning AWS compute, bootstrapping a K3s cluster, and deploying applications via GitOps.
+- Provisioned AWS EC2 infrastructure using Terraform and automated cloud-init scripting.
+- Configured a K3s cluster to pull and apply application manifests directly from GitHub on boot.
 
-**Stack:** React.js, Django, JMeter, Jenkins, InfluxDB, Chart.js
+**Stack:** Terraform, AWS, K3s, Kubernetes, Docker, Python, GitOps
 
-🔗 [Repository](https://github.com/Janoth3/Performance-Pal)
+🔗 [Repository](https://github.com/Janoth3/aws-terraform-container-deploy)
 
 ---
 
